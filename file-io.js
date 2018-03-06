@@ -2,7 +2,7 @@
 
 const {readFileSync} = require('fs');
 
-const input = process.argv[2];
+const input = process.argv[1];
 
 const output = readFileSync(input);
 
